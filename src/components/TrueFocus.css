@@ -1,0 +1,9 @@
+.focus-container{position:relative;display:inline-block}
+.focus-word{display:inline-block;margin-right:.4ch;transition:filter .5s ease}
+.focus-word.manual{cursor:default}
+.focus-frame{position:absolute;pointer-events:none;border:1.5px solid var(--border-color,rgba(56,189,248,.8));box-shadow:0 0 0 2px rgba(255,255,255,.06),0 0 25px var(--glow-color,rgba(56,189,248,.4));border-radius:8px;opacity:1;transition:left .5s ease,top .5s ease,width .5s ease,height .5s ease,opacity .3s ease}
+.focus-frame .corner{position:absolute;width:10px;height:10px;border:2px solid var(--border-color,rgba(56,189,248,.8))}
+.focus-frame .top-left{top:-2px;left:-2px;border-right:0;border-bottom:0;border-top-left-radius:6px}
+.focus-frame .top-right{top:-2px;right:-2px;border-left:0;border-bottom:0;border-top-right-radius:6px}
+.focus-frame .bottom-left{bottom:-2px;left:-2px;border-right:0;border-top:0;border-bottom-left-radius:6px}
+.focus-frame .bottom-right{bottom:-2px;right:-2px;border-left:0;border-top:0;border-bottom-right-radius:6px}

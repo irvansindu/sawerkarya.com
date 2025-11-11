@@ -1,0 +1,8 @@
+.electric-border{position:relative;display:block}
+.electric-border .eb-svg{position:absolute;inset:0;width:0;height:0}
+.electric-border .eb-layers{pointer-events:none;position:absolute;inset:-8px}
+.electric-border .eb-stroke{position:absolute;inset:8px;border:var(--eb-border-width,2px) solid var(--electric-border-color,#5227FF);border-radius:16px;filter:url(#turbulent-displace-0)}
+.electric-border .eb-glow-1,.electric-border .eb-glow-2{position:absolute;inset:8px;border-radius:16px;box-shadow:0 0 18px var(--electric-border-color,#5227FF),0 0 36px color-mix(in oklab,var(--electric-border-color,#5227FF),transparent 50%)}
+.electric-border .eb-glow-2{filter:blur(8px);opacity:.7}
+.electric-border .eb-background-glow{position:absolute;inset:12px;border-radius:14px;background:radial-gradient(60% 60% at 50% 40%,color-mix(in oklab,var(--electric-border-color,#5227FF),transparent 70%),transparent)}
+.electric-border .eb-content{position:relative;border-radius:12px;overflow:hidden}
