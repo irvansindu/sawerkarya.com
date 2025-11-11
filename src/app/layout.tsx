@@ -6,6 +6,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Distributor Chat GPT",
   description: "Platform penjualan layanan ChatGPT: akses premium, paket penggunaan, dan konsultasi berbasis AI.",
+  metadataBase: new URL("https://www.sawerkarya.com"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Distributor Chat GPT",
     description:
@@ -13,7 +17,10 @@ export const metadata: Metadata = {
     type: "website",
   },
   icons: {
-    icon: "/fivan-logo-2.png",
+    icon: [
+      { url: "/fivan-logo-2.png", type: "image/png", rel: "icon", sizes: "32x32" },
+      { url: "/fivan-logo-2.png", type: "image/png", rel: "icon", sizes: "16x16" },
+    ],
     shortcut: "/fivan-logo-2.png",
     apple: "/fivan-logo-2.png",
   },
@@ -42,7 +49,6 @@ export default function RootLayout({
                 height={28}
                 className="h-7 w-7 rounded-md object-contain"
                 priority
-                unoptimized
                 key="logo-v2"
               />
               <span>Distributor Chat GPT</span>

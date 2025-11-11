@@ -43,7 +43,6 @@ export default function Home() {
               height={256}
               className="max-h-[70%] max-w-[70%] object-contain"
               priority
-              unoptimized
             />
           </div>
         </div>
