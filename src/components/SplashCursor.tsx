@@ -62,19 +62,15 @@ export default function SplashCursor({
     let colorTimer = 0;
 
     const clear = () => {
-      if (TRANSPARENT) {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-      } else {
-        ctx.fillStyle = `rgb(${BACK_COLOR.r},${BACK_COLOR.g},${BACK_COLOR.b})`;
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-      }
+      // bersihkan tanpa menambahkan lapisan gelap supaya konten di belakang tetap terang
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
     };
 
     const drawSplat = (x: number, y: number) => {
       const radius = Math.max(canvas.width, canvas.height) * SPLAT_RADIUS * 0.25;
       const c = colorRef.current;
       const g = ctx.createRadialGradient(x, y, 0, x, y, radius);
-      g.addColorStop(0, `rgba(${c.r},${c.g},${c.b},${0.35 * SPLAT_FORCE})`);
+      g.addColorStop(0, `rgba(${c.r},${c.g},${c.b},${0.18 * SPLAT_FORCE})`);
       g.addColorStop(1, 'rgba(0,0,0,0)');
       ctx.fillStyle = g;
       ctx.beginPath();
@@ -91,9 +87,9 @@ export default function SplashCursor({
         colorRef.current = randColor();
       }
 
-      // subtle fade to create trail persistence
+      // gunakan fade yang sangat tipis agar tidak menggelapkan seluruh halaman
       ctx.globalCompositeOperation = 'source-over';
-      ctx.fillStyle = TRANSPARENT ? 'rgba(0,0,0,0.06)' : `rgba(${BACK_COLOR.r},${BACK_COLOR.g},${BACK_COLOR.b},0.06)`;
+      ctx.fillStyle = 'rgba(0,0,0,0.02)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       if (mouseRef.current.moved) {
@@ -141,7 +137,7 @@ export default function SplashCursor({
       style={{
         position: 'fixed',
         inset: 0,
-        zIndex: 50,
+        zIndex: 0,
         pointerEvents: 'none',
       }}
     >

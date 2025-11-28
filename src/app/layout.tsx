@@ -4,16 +4,16 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Distributor Chat GPT",
-  description: "Platform penjualan layanan ChatGPT: akses premium, paket penggunaan, dan konsultasi berbasis AI.",
+  title: "QINZ STORE  Supplier Aplikasi Premium Termurah",
+  description: "QINZ STORE menyediakan berbagai aplikasi dan layanan digital premium dengan harga termurah dan bergaransi.",
   metadataBase: new URL("https://www.sawerkarya.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Distributor Chat GPT",
+    title: "QINZ STORE  Supplier Aplikasi Premium Termurah",
     description:
-      "Platform penjualan layanan ChatGPT: akses premium, paket penggunaan, dan konsultasi berbasis AI.",
+      "Toko digital untuk langganan aplikasi premium: streaming, AI, produktivitas, dan hiburan dengan harga terjangkau.",
     type: "website",
   },
   icons: {
@@ -44,21 +44,20 @@ export default function RootLayout({
             <Link href="/" className="flex items-center gap-2 font-semibold tracking-tight">
               <Image
                 src="/fivan-logo-2.png"
-                alt="Fivan Store"
+                alt="QINZ STORE"
                 width={28}
                 height={28}
                 className="h-7 w-7 rounded-md object-contain"
                 priority
                 key="logo-v2"
               />
-              <span>Distributor Chat GPT</span>
+              <span>QINZ STORE</span>
             </Link>
             <nav className="hidden gap-6 text-sm sm:flex">
               <Link className="hover:text-accent transition-colors" href="/">Beranda</Link>
               <Link className="hover:text-accent transition-colors" href="/produk">Produk</Link>
               <Link className="hover:text-accent transition-colors" href="/tentang">Tentang</Link>
               <Link className="hover:text-accent transition-colors" href="/kontak">Kontak</Link>
-              <Link className="hover:text-accent transition-colors" href="/demo">Coba Demo</Link>
             </nav>
             <div className="flex items-center gap-3">
               <Link
@@ -75,7 +74,7 @@ export default function RootLayout({
           <div className="mx-auto max-w-6xl px-6 py-10 text-sm text-brand-muted">
             <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
               <p>
-                {new Date().getFullYear()} Distributor Chat GPT. Semua hak cipta dilindungi.
+                {new Date().getFullYear()} QINZ STORE. Semua hak cipta dilindungi.
               </p>
               <div className="flex items-center gap-5">
                 <Link className="hover:text-accent" href="/tos">Ketentuan Layanan</Link>

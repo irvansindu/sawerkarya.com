@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Alight Motion",
+    "options": [
+      { "label": "7 Hari", "displayPrice": "Rp8.000", "amount": 8000 },
+      { "label": "30 Hari", "displayPrice": "Rp15.000", "amount": 15000 }
+    ],
+    "features": [
+      "Preset & efek pro untuk edit video",
+      "Cocok untuk video aesthetic & AMV",
+      "Garansi akun 1 bulan"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Apple Music",
+    "options": [
+      { "label": "7 Hari", "displayPrice": "Rp10.000", "amount": 10000 },
+      { "label": "30 Hari", "displayPrice": "Rp20.000", "amount": 20000 }
+    ],
+    "features": [
+      "Streaming jutaan lagu tanpa iklan",
+      "Kualitas audio tinggi",
+      "Bisa cancel kapan saja"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Bstation (Bilibili)",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp18.000", "amount": 18000 },
+      { "label": "90 Hari", "displayPrice": "Rp50.000", "amount": 50000 }
+    ],
+    "features": [
+      "Anime & dorama full HD",
+      "Subtitle rapi & update",
+      "Hemat biaya langganan"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Canva Pro",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp25.000", "amount": 25000 },
+      { "label": "1 Tahun (sharing)", "displayPrice": "Rp120.000", "amount": 120000 }
+    ],
+    "features": [
+      "Semua template & elemen premium",
+      "Ideal untuk desain bisnis & konten",
+      "Sharing slot aman"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "CapCut Pro",
+    "options": [
+      { "label": "7 Hari", "displayPrice": "Rp7.000", "amount": 7000 },
+      { "label": "21 Hari", "displayPrice": "Rp15.000", "amount": 15000 },
+      { "label": "28 Hari", "displayPrice": "Rp22.000", "amount": 22000 },
+      { "label": "35 Hari", "displayPrice": "Rp27.000", "amount": 27000 }
+    ],
+    "features": [
+      "Tanpa watermark",
+      "Efek & filter premium",
+      "Cocok untuk content creator"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "ChatGPT",
+    "options": [
+      { "label": "7 Hari", "displayPrice": "Rp15.000", "amount": 15000 },
+      { "label": "30 Hari", "displayPrice": "Rp35.000", "amount": 35000 }
+    ],
+    "features": [
+      "Bantu tugas, skripsi, & kerja",
+      "Ide konten & copywriting",
+      "Akses 24/7"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "DeepL",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp25.000", "amount": 25000 }
+    ],
+    "features": [
+      "Terjemahan akurat multi-bahasa",
+      "Cocok untuk tugas & kerja profesional",
+      "Support teks panjang"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Gemini AI (Veo 3)",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp30.000", "amount": 30000 },
+      { "label": "90 Hari", "displayPrice": "Rp80.000", "amount": 80000 }
+    ],
+    "features": [
+      "Bantu riset & penulisan",
+      "Ide konten kreatif",
+      "Cocok untuk pelajar & creator"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Gmail Service",
+    "options": [
+      { "label": "Jasa Recovery", "displayPrice": "Rp10.000", "amount": 10000 },
+      { "label": "Upgrade Storage", "displayPrice": "Rp25.000", "amount": 25000 }
+    ],
+    "features": [
+      "Bantuan recovery & keamanan",
+      "Opsi upgrade storage tertentu",
+      "Panduan step-by-step"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Netflix (Sharing)",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp30.000", "amount": 30000 },
+      { "label": "90 Hari", "displayPrice": "Rp80.000", "amount": 80000 }
+    ],
+    "features": [
+      "Film & series terbaru HD–4K",
+      "Profil terpisah",
+      "Garansi full masa aktif"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Perplexity AI",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp30.000", "amount": 30000 }
+    ],
+    "features": [
+      "Cari jawaban super cepat",
+      "Cocok untuk belajar & riset",
+      "Ringkasan materi otomatis"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Prime Video",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp25.000", "amount": 25000 },
+      { "label": "90 Hari", "displayPrice": "Rp65.000", "amount": 65000 }
+    ],
+    "features": [
+      "Film & series eksklusif",
+      "Banyak judul original",
+      "Kualitas streaming tinggi"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Scribd",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp20.000", "amount": 20000 },
+      { "label": "90 Hari", "displayPrice": "Rp50.000", "amount": 50000 }
+    ],
+    "features": [
+      "Akses ribuan ebook & jurnal",
+      "Cocok untuk kuliah & kerja",
+      "Download dokumen pilihan"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Spotify Premium (Individu)",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp20.000", "amount": 20000 },
+      { "label": "Family Slot 30 Hari", "displayPrice": "Rp17.000", "amount": 17000 }
+    ],
+    "features": [
+      "Musik tanpa iklan",
+      "Bisa download offline",
+      "Skip lagu tanpa batas"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Strava",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp18.000", "amount": 18000 },
+      { "label": "1 Tahun (sharing)", "displayPrice": "Rp120.000", "amount": 120000 }
+    ],
+    "features": [
+      "Statistik lari & gowes detail",
+      "Fitur komunitas & tantangan",
+      "Cocok untuk sport enthusiast"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Viu",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp18.000", "amount": 18000 },
+      { "label": "90 Hari", "displayPrice": "Rp45.000", "amount": 45000 }
+    ],
+    "features": [
+      "Drama Korea & Asia lengkap",
+      "Subtitle Indonesia",
+      "Bisa download episode"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Video Private",
+    "options": [
+      { "label": "Paket Basic", "displayPrice": "Rp25.000", "amount": 25000 },
+      { "label": "Paket Pro", "displayPrice": "Rp50.000", "amount": 50000 }
+    ],
+    "features": [
+      "Akses / simpan video secara aman",
+      "Privasi terjaga",
+      "Penyesuaian sesuai kebutuhan"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "VPN Premium",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp15.000", "amount": 15000 },
+      { "label": "90 Hari", "displayPrice": "Rp40.000", "amount": 40000 }
+    ],
+    "features": [
+      "Internet lebih aman & privat",
+      "Buka situs & aplikasi terblokir",
+      "Pilihan server internasional"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "Windsurf AI",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp40.000", "amount": 40000 },
+      { "label": "90 Hari", "displayPrice": "Rp110.000", "amount": 110000 }
+    ],
+    "features": [
+      "AI khusus coding & debugging",
+      "Tingkatkan produktivitas developer",
+      "Cocok untuk pelajar IT & programmer"
+    ],
+    "highlight": false,
+    "stock": 999
+  },
+  {
+    "name": "YouTube Premium (Individu)",
+    "options": [
+      { "label": "30 Hari", "displayPrice": "Rp25.000", "amount": 25000 },
+      { "label": "90 Hari", "displayPrice": "Rp70.000", "amount": 70000 }
+    ],
+    "features": [
+      "Tanpa iklan",
+      "Bisa background & picture-in-picture",
+      "Download video & musik"
+    ],
+    "highlight": true,
+    "stock": 999
+  }
+]
