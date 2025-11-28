@@ -11,10 +11,10 @@ export default function Home() {
 						<Image src="/fivan-logo-2.png" alt="QINZ STORE" width={32} height={32} className="h-8 w-8 object-contain" />
 						<span className="text-sm text-brand-muted">QINZ STORE</span>
 					</div>
-          <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
-            <TrueFocus sentence="QINZ STORE" /> SUPPLIER APLIKASI PREMIUM TERMURAH.
-          </h1>
-          					<p className="text-brand-muted text-lg">
+					<h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
+						<TrueFocus sentence="QINZ STORE" /> SUPPLIER APLIKASI PREMIUM TERMURAH.
+					</h1>
+					<p className="text-brand-muted text-lg">
 						Toko digital untuk langganan aplikasi premium: streaming, musik, AI, produktivitas, dan hiburan dengan harga terjangkau dan bergaransi.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-3 justify-center">
