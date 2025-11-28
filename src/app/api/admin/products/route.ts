@@ -26,6 +26,13 @@ export async function POST(req: NextRequest) {
   }
 
   try {
+    if (process.env.NODE_ENV === "production") {
+      return NextResponse.json(
+        { error: "Edit produk tidak diizinkan di environment production" },
+        { status: 403 }
+      );
+    }
+
     const body = (await req.json()) as unknown;
     if (!Array.isArray(body)) {
       return NextResponse.json({ error: "Body harus berupa array produk" }, { status: 400 });
